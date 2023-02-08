@@ -34,6 +34,9 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "label": {
+      "type": "string"
     }
   }
 }
