@@ -17,12 +17,13 @@
       "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -35,11 +36,28 @@
       "required": true
     },
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "general"
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "categoryColor": {
+      "type": "enumeration",
+      "enum": [
+        "green",
+        "blue",
+        "orange",
+        "purple",
+        "pink"
+      ],
+      "required": true,
+      "default": "pink"
+    },
+    "keywords": {
+      "type": "text"
     }
   }
 }
