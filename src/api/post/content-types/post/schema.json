@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "richtext"
@@ -30,13 +31,15 @@
       ]
     },
     "author": {
-      "type": "string"
-    },
-    "slug": {
-      "type": "uid"
+      "type": "string",
+      "required": true
     },
     "label": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

@@ -18,7 +18,9 @@
     "mysql": "2.18.1",
     "pg": "^8.9.0",
     "strapi-blurhash": "^1.0.2",
-    "strapi-plugin-sitemap": "^2.0.9"
+    "strapi-plugin-sitemap": "^2.0.9",
+    "strapi-plugin-slugify": "^2.3.2",
+    "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0"
   },
   "author": {
     "name": "A Strapi developer"
