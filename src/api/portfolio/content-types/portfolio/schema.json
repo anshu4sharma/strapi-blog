@@ -34,6 +34,11 @@
     },
     "src": {
       "type": "string"
+    },
+    "techstack": {
+      "type": "string",
+      "default": "Nextjs",
+      "required": true
     }
   }
 }
