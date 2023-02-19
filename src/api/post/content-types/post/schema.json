@@ -35,11 +35,6 @@
       "type": "string",
       "required": true
     },
-    "label": {
-      "type": "string",
-      "required": true,
-      "default": "general"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
@@ -57,6 +52,15 @@
       "default": "pink"
     },
     "keywords": {
+      "type": "text"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::catergory.catergory",
+      "inversedBy": "posts"
+    },
+    "short_description": {
       "type": "text"
     }
   }
