@@ -61,7 +61,8 @@
       "inversedBy": "posts"
     },
     "short_description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }
